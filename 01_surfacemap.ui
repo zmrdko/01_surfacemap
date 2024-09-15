@@ -1,0 +1,1422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SURFACEMAP</class>
+ <widget class="QWidget" name="SURFACEMAP">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1645</width>
+    <height>619</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1645</width>
+    <height>619</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>USER MAIN</string>
+  </property>
+  <property name="sidebar" stdset="0">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="widget_44" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>530</width>
+     <height>619</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+     <horstretch>1</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>530</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>530</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QWidget {
+    background-color: #929695;;
+}</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_41">
+    <property name="topMargin">
+     <number>6</number>
+    </property>
+    <property name="rightMargin">
+     <number>6</number>
+    </property>
+    <property name="bottomMargin">
+     <number>9</number>
+    </property>
+    <item>
+     <widget class="QLabel" name="label_81">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bebas Kai</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+    border-style: solid;
+    border-color: rgb(176, 179, 172);
+    border-width: 2px;
+    border-radius: 5px;
+    color: white;
+    background: rgb(90, 90, 90);
+	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>SURFACE MAP</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <property name="indent">
+       <number>10</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_22">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>9</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="label_82">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>27</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>27</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bebas Kai</family>
+          <pointsize>14</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+    border-style: solid;
+    border-color: rgb(176, 179, 172);
+    border-width: 2px;
+    border-radius: 5px;
+    color: white;
+    background: rgb(90, 90, 90);
+	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+        </property>
+        <property name="text">
+         <string>Grid Size</string>
+        </property>
+        <property name="indent">
+         <number>10</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_154">
+        <property name="topMargin">
+         <number>1</number>
+        </property>
+        <property name="bottomMargin">
+         <number>1</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_83">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>140</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+font: 75 14pt &quot;Bebas Kai&quot;;
+color: white;
+}</string>
+          </property>
+          <property name="lineWidth">
+           <number>0</number>
+          </property>
+          <property name="text">
+           <string>x0</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="indent">
+           <number>0</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="VCPSettingsLineEdit" name="surface_scan_x0_3050">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>bebas kai</family>
+            <pointsize>15</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">VCPSettingsLineEdit {
+    font: 15pt &quot;bebas kai&quot;
+}</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="placeholderText">
+           <string>0.0</string>
+          </property>
+          <property name="rules" stdset="0">
+           <string>[{&quot;name&quot;: &quot;enable&quot;, &quot;property&quot;: &quot;Enable&quot;, &quot;expression&quot;: &quot;True if ch[0] else False&quot;, &quot;channels&quot;: [{&quot;url&quot;: &quot;status:all_axes_homed&quot;, &quot;trigger&quot;: true}]}]</string>
+          </property>
+          <property name="settingName" stdset="0">
+           <string>surface-scan.x0</string>
+          </property>
+          <property name="textFormat" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_85">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>140</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+font: 75 14pt &quot;Bebas Kai&quot;;
+color: white;
+}</string>
+          </property>
+          <property name="lineWidth">
+           <number>0</number>
+          </property>
+          <property name="text">
+           <string>height</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="indent">
+           <number>0</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="VCPSettingsLineEdit" name="surface_scan_height_3052">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>bebas kai</family>
+            <pointsize>15</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">VCPSettingsLineEdit {
+    font: 15pt &quot;bebas kai&quot;
+}</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="placeholderText">
+           <string>0.0</string>
+          </property>
+          <property name="rules" stdset="0">
+           <string>[{&quot;name&quot;: &quot;enable&quot;, &quot;property&quot;: &quot;Enable&quot;, &quot;expression&quot;: &quot;True if ch[0] else False&quot;, &quot;channels&quot;: [{&quot;url&quot;: &quot;status:all_axes_homed&quot;, &quot;trigger&quot;: true}]}]</string>
+          </property>
+          <property name="settingName" stdset="0">
+           <string>surface-scan.height</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_155">
+        <property name="topMargin">
+         <number>1</number>
+        </property>
+        <property name="bottomMargin">
+         <number>1</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_94">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>140</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>140</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="baseSize">
+           <size>
+            <width>140</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+font: 75 14pt &quot;Bebas Kai&quot;;
+color: white;
+}</string>
+          </property>
+          <property name="lineWidth">
+           <number>0</number>
+          </property>
+          <property name="text">
+           <string>y0</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="indent">
+           <number>0</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="VCPSettingsLineEdit" name="surface_scan_x0_3051">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>bebas kai</family>
+            <pointsize>15</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">VCPSettingsLineEdit {
+    font: 15pt &quot;bebas kai&quot;
+}</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="placeholderText">
+           <string>0.0</string>
+          </property>
+          <property name="rules" stdset="0">
+           <string>[{&quot;name&quot;: &quot;enable&quot;, &quot;property&quot;: &quot;Enable&quot;, &quot;expression&quot;: &quot;True if ch[0] else False&quot;, &quot;channels&quot;: [{&quot;url&quot;: &quot;status:all_axes_homed&quot;, &quot;trigger&quot;: true}]}]</string>
+          </property>
+          <property name="settingName" stdset="0">
+           <string>surface-scan.y0</string>
+          </property>
+          <property name="textFormat" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_86">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>140</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>140</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="baseSize">
+           <size>
+            <width>140</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+font: 75 14pt &quot;Bebas Kai&quot;;
+color: white;
+}</string>
+          </property>
+          <property name="lineWidth">
+           <number>0</number>
+          </property>
+          <property name="text">
+           <string>width</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="indent">
+           <number>0</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="VCPSettingsLineEdit" name="surface_scan_width_3053">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>bebas kai</family>
+            <pointsize>15</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">VCPSettingsLineEdit {
+    font: 15pt &quot;bebas kai&quot;
+}</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="placeholderText">
+           <string>0.0</string>
+          </property>
+          <property name="rules" stdset="0">
+           <string>[{&quot;name&quot;: &quot;enable&quot;, &quot;property&quot;: &quot;Enable&quot;, &quot;expression&quot;: &quot;True if ch[0] else False&quot;, &quot;channels&quot;: [{&quot;url&quot;: &quot;status:all_axes_homed&quot;, &quot;trigger&quot;: true}]}]</string>
+          </property>
+          <property name="settingName" stdset="0">
+           <string>surface-scan.width</string>
+          </property>
+          <property name="textFormat" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_156">
+        <property name="topMargin">
+         <number>1</number>
+        </property>
+        <property name="bottomMargin">
+         <number>1</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_87">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>140</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+font: 75 14pt &quot;Bebas Kai&quot;;
+color: white;
+}</string>
+          </property>
+          <property name="lineWidth">
+           <number>0</number>
+          </property>
+          <property name="text">
+           <string>grid spacing</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="indent">
+           <number>0</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="VCPSettingsLineEdit" name="surface_scan_x0_3052">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>bebas kai</family>
+            <pointsize>15</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">VCPSettingsLineEdit {
+    font: 15pt &quot;bebas kai&quot;
+}</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="placeholderText">
+           <string>0.0</string>
+          </property>
+          <property name="rules" stdset="0">
+           <string>[{&quot;name&quot;: &quot;enable&quot;, &quot;property&quot;: &quot;Enable&quot;, &quot;expression&quot;: &quot;True if ch[0] else False&quot;, &quot;channels&quot;: [{&quot;url&quot;: &quot;status:all_axes_homed&quot;, &quot;trigger&quot;: true}]}]</string>
+          </property>
+          <property name="settingName" stdset="0">
+           <string>surface-scan.x0</string>
+          </property>
+          <property name="textFormat" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="SubCallButton" name="load_from_gcode_btn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>27</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>27</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">SubCallButton{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: rgb(238, 238, 236);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
+	font: 14pt &quot;Bebas Kai&quot;;
+}
+
+.SubCallButton:disabled {
+    border-color: gray;
+}
+
+.SubCallButton:hover {
+    background:  qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                     stop: 0 #A19E9E, stop: 1.0 #5C5959);
+}
+
+.SubCallButton:pressed {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+.SubCallButton:checked[option=&quot;true&quot;] {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+.SubCallButton:checked {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}</string>
+        </property>
+        <property name="text">
+         <string>LOAD FROM GCODE</string>
+        </property>
+        <property name="filename" stdset="0">
+         <string>surface_scan_param_update.ngc</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_84">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>27</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>27</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bebas Kai</family>
+          <pointsize>14</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+    border-style: solid;
+    border-color: rgb(176, 179, 172);
+    border-width: 2px;
+    border-radius: 5px;
+    color: white;
+    background: rgb(90, 90, 90);
+	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+        </property>
+        <property name="text">
+         <string>Probing settings</string>
+        </property>
+        <property name="indent">
+         <number>10</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="label_90">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>140</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+font: 75 14pt &quot;Bebas Kai&quot;;
+color: white;
+}</string>
+          </property>
+          <property name="lineWidth">
+           <number>0</number>
+          </property>
+          <property name="text">
+           <string>PROBE FAST FDRATE:</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="indent">
+           <number>0</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="VCPSettingsLineEdit" name="probe_fast_fr_3016">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>BebasKai</family>
+            <pointsize>15</pointsize>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::ClickFocus</enum>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="placeholderText">
+           <string>0.0</string>
+          </property>
+          <property name="rules" stdset="0">
+           <string>[{&quot;name&quot;: &quot;enable&quot;, &quot;property&quot;: &quot;Enable&quot;, &quot;expression&quot;: &quot;True if ch[0] else False&quot;, &quot;channels&quot;: [{&quot;url&quot;: &quot;status:all_axes_homed&quot;, &quot;trigger&quot;: true}]}]</string>
+          </property>
+          <property name="settingName" stdset="0">
+           <string>probe-parameters.probe-fast-fr</string>
+          </property>
+          <property name="textFormat" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_89">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>140</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>140</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="baseSize">
+           <size>
+            <width>140</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+font: 75 14pt &quot;Bebas Kai&quot;;
+color: white;
+}</string>
+          </property>
+          <property name="lineWidth">
+           <number>0</number>
+          </property>
+          <property name="text">
+           <string>PROBE SLOW FDRATE:</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="indent">
+           <number>0</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="VCPSettingsLineEdit" name="probe_slow_fr_3015">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>BebasKai</family>
+            <pointsize>15</pointsize>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::ClickFocus</enum>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="placeholderText">
+           <string>0.0</string>
+          </property>
+          <property name="rules" stdset="0">
+           <string>[{&quot;name&quot;: &quot;enable&quot;, &quot;property&quot;: &quot;Enable&quot;, &quot;expression&quot;: &quot;True if ch[0] else False&quot;, &quot;channels&quot;: [{&quot;url&quot;: &quot;status:all_axes_homed&quot;, &quot;trigger&quot;: true}]}]</string>
+          </property>
+          <property name="settingName" stdset="0">
+           <string>probe-parameters.probe-slow-fr</string>
+          </property>
+          <property name="textFormat" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_88">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>140</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+font: 75 14pt &quot;Bebas Kai&quot;;
+color: white;
+}</string>
+          </property>
+          <property name="lineWidth">
+           <number>0</number>
+          </property>
+          <property name="text">
+           <string>safe Z</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="indent">
+           <number>0</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="VCPSettingsLineEdit" name="surface_scan_height_3053">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>bebas kai</family>
+            <pointsize>15</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">VCPSettingsLineEdit {
+    font: 15pt &quot;bebas kai&quot;
+}</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="placeholderText">
+           <string>0.0</string>
+          </property>
+          <property name="rules" stdset="0">
+           <string>[{&quot;name&quot;: &quot;enable&quot;, &quot;property&quot;: &quot;Enable&quot;, &quot;expression&quot;: &quot;True if ch[0] else False&quot;, &quot;channels&quot;: [{&quot;url&quot;: &quot;status:all_axes_homed&quot;, &quot;trigger&quot;: true}]}]</string>
+          </property>
+          <property name="settingName" stdset="0">
+           <string>surface-scan.height</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_92">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>140</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+font: 75 14pt &quot;Bebas Kai&quot;;
+color: white;
+}</string>
+          </property>
+          <property name="lineWidth">
+           <number>0</number>
+          </property>
+          <property name="text">
+           <string>search depth</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="indent">
+           <number>0</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="VCPSettingsLineEdit" name="surface_scan_x0_3054">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>bebas kai</family>
+            <pointsize>15</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">VCPSettingsLineEdit {
+    font: 15pt &quot;bebas kai&quot;
+}</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="placeholderText">
+           <string>0.0</string>
+          </property>
+          <property name="rules" stdset="0">
+           <string>[{&quot;name&quot;: &quot;enable&quot;, &quot;property&quot;: &quot;Enable&quot;, &quot;expression&quot;: &quot;True if ch[0] else False&quot;, &quot;channels&quot;: [{&quot;url&quot;: &quot;status:all_axes_homed&quot;, &quot;trigger&quot;: true}]}]</string>
+          </property>
+          <property name="settingName" stdset="0">
+           <string>surface-scan.x0</string>
+          </property>
+          <property name="textFormat" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_19" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>33</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>33</height>
+       </size>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_57">
+       <property name="spacing">
+        <number>1</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="SubCallButton" name="update_probe_parameters_btn">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>27</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>27</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">SubCallButton{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: rgb(238, 238, 236);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
+	font: 14pt &quot;Bebas Kai&quot;;
+}
+
+.SubCallButton:disabled {
+    border-color: gray;
+}
+
+.SubCallButton:hover {
+    background:  qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                     stop: 0 #A19E9E, stop: 1.0 #5C5959);
+}
+
+.SubCallButton:pressed {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+.SubCallButton:checked[option=&quot;true&quot;] {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+.SubCallButton:checked {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}</string>
+         </property>
+         <property name="text">
+          <string>UPDATE PROBE PARAMS</string>
+         </property>
+         <property name="filename" stdset="0">
+          <string>surface_scan_param_update.ngc</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="SubCallButton" name="surface_scan_button">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>1</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">.SubCallButton {
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(213, 218, 216, 255), stop:0.169312 rgba(82, 82, 83, 255), stop:0.328042 rgba(72, 70, 73, 255), stop:0.492063 rgba(78, 77, 79, 255), stop:0.703704 rgba(72, 70, 73, 255), stop:0.86 rgba(82, 82, 83, 255), stop:1 rgba(213, 218, 216, 255));
+}
+
+.SubCallButton {
+    font-family: &quot;Bebas Kai&quot;;
+    font-size: 15pt;
+}
+
+.SubCallButton:disabled {
+    border-color: gray;
+}
+
+.SubCallButton:hover {
+    background:  qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                     stop: 0 #A19E9E, stop: 1.0 #5C5959);
+}
+
+.SubCallButton:pressed {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+.SubCallButton:checked[option=&quot;true&quot;] {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+.SubCallButton:checked {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}</string>
+      </property>
+      <property name="text">
+       <string>Scan Surface</string>
+      </property>
+      <property name="filename" stdset="0">
+       <string>surface_test.ngc</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="HalButton" name="halbutton">
+      <property name="font">
+       <font>
+        <family>BebasKai</family>
+        <pointsize>15</pointsize>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string>Compensation map enable</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="pinBaseName" stdset="0">
+       <string>halbutton_compensation_enable</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="StatusLabel" name="statuslabel_23">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>30</y>
+     <width>637</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="rules" stdset="0">
+    <string>[{&quot;name&quot;: &quot;mix_extents&quot;, &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;f\&quot;{ch[0]}\&quot;&quot;, &quot;channels&quot;: [{&quot;url&quot;: &quot;gcode_properties:min_extents&quot;, &quot;trigger&quot;: true}]}]</string>
+   </property>
+  </widget>
+  <widget class="GCodeProperties" name="gcodeproperties">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>120</y>
+     <width>691</width>
+     <height>441</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>SubCallButton</class>
+   <extends>QPushButton</extends>
+   <header>qtpyvcp.widgets.button_widgets.subcall_button</header>
+  </customwidget>
+  <customwidget>
+   <class>StatusLabel</class>
+   <extends>QLabel</extends>
+   <header>qtpyvcp.widgets.display_widgets.status_label</header>
+  </customwidget>
+  <customwidget>
+   <class>GCodeProperties</class>
+   <extends>QWidget</extends>
+   <header>qtpyvcp.widgets.display_widgets.gcode_properties</header>
+  </customwidget>
+  <customwidget>
+   <class>VCPSettingsLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>qtpyvcp.widgets.input_widgets.setting_slider</header>
+  </customwidget>
+  <customwidget>
+   <class>HalButton</class>
+   <extends>QPushButton</extends>
+   <header>qtpyvcp.widgets.hal_widgets.hal_button</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../../../../../../../usr/lib/python3/dist-packages/probe_basic/probe_basic.qrc"/>
+ </resources>
+ <connections/>
+</ui>
