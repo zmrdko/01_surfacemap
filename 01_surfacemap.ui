@@ -1207,7 +1207,7 @@ color: white;
         <number>0</number>
        </property>
        <item>
-        <widget class="SubCallButton" name="update_probe_parameters_btn">
+        <widget class="SubCallButton" name="update_surface_scan_params">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
            <horstretch>0</horstretch>

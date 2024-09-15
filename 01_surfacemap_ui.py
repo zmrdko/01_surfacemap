@@ -35,7 +35,4 @@ class Ui_USER(object):
         self.update_surface_scan_params.setText(_translate("Form", "UPDATE SURFACE SCAN PARAMETERS"))
         self.update_surface_scan_params.setProperty("filename", _translate("Form", "surface_scan_param_update.ngc"))
 
-        self.probe_slow_fr_3015.setPlaceholderText(_translate("Form", "0.0"))
-        self.probe_slow_fr_3015.setProperty("rules", _translate("Form", "[{\"name\": \"enable\", \"property\": \"Enable\", \"expression\": \"True if ch[0] else False\", \"channels\": [{\"url\": \"status:all_axes_homed\", \"trigger\": true}]}]"))
-        self.probe_slow_fr_3015.setProperty("settingName", _translate("Form", "probe-parameters.probe-slow-fr"))
-        self.probe_slow_fr_3015.setProperty("textFormat", _translate("Form", "{:.1f}"))
+
