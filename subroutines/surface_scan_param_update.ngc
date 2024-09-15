@@ -1,0 +1,36 @@
+o<surface_scan_param_update> sub
+  (MSG, surface_scan_param_update.ngc)
+  (DEBUG, parameter 1 is [#1])
+  
+  #<x0_3050> = #1
+  #<y0_3051> = #2
+  #<h_3052> = #3
+  #<w_3053> = #4
+  #<step_3054> = #5
+  #<search_feed_3055> = #6
+  #<latch_feed_3056> = #7
+  #<safe_z_3057> = #8
+  #<search_depth_3058> = #9
+  
+
+  #3050 = #<x0_3050>
+  
+  #3051 = #<y0_3051>
+  
+  #3052 = #<h_3052>
+  
+  #3053 = #<w_3053>
+  
+  #3054 = #<step_3054>
+  
+  #3055 = #<search_feed_3055>
+  
+  #3056 = #<latch_feed_3056>
+  
+  #3057 = #<safe_z_3057>
+  
+  #3058 = #<search_depth_3058>
+
+o<surface_scan_param_update> endsub
+
+M2
