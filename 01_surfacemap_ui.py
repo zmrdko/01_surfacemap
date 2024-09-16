@@ -25,14 +25,12 @@ class Ui_USER(object):
         _translate = QtCore.QCoreApplication.translate
         USER.setWindowTitle(_translate("USER", "USER MAIN"))
 
-
-
         self.surface_scan_x0_3050.textChanged['QString'].connect(self.update_surface_scan_params.click) # type: ignore
         self.surface_scan_x0_3051.textChanged['QString'].connect(self.update_surface_scan_params.click) # type: ignore
         self.surface_scan_height_3052.textChanged['QString'].connect(self.update_surface_scan_params.click) # type: ignore
         self.surface_scan_width_3053.textChanged['QString'].connect(self.update_surface_scan_params.click) # type: ignore
         
-        self.update_surface_scan_params.setText(_translate("Form", "UPDATE SURFACE SCAN PARAMETERS"))
+        self.update_surface_scan_params.setText(_translate("Form", "UPDATE SURFACE SCAN PARAMETERS2"))
         self.update_surface_scan_params.setProperty("filename", _translate("Form", "surface_scan_param_update.ngc"))
 
 

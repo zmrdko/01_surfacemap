@@ -628,7 +628,7 @@ color: white;
          </widget>
         </item>
         <item>
-         <widget class="VCPSettingsLineEdit" name="surface_scan_x0_3052">
+         <widget class="VCPSettingsLineEdit" name="surface_scan_step_3054">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
             <horstretch>0</horstretch>
