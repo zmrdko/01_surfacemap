@@ -1416,7 +1416,152 @@ color: white;
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../../../../../../../usr/lib/python3/dist-packages/probe_basic/probe_basic.qrc"/>
+  <include location="../probe_basic/src/probe_basic/probe_basic.qrc"/>
  </resources>
- <connections/>
+ <connections>
+  <connection>
+   <sender>surface_scan_x0_3050</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>update_surface_scan_params</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>191</x>
+     <y>105</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>249</x>
+     <y>508</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>surface_scan_height_3052</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>update_surface_scan_params</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>486</x>
+     <y>107</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>416</x>
+     <y>515</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>surface_scan_width_3053</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>update_surface_scan_params</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>480</x>
+     <y>182</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>402</x>
+     <y>510</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>surface_scan_step_3054</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>update_surface_scan_params</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>379</x>
+     <y>247</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>369</x>
+     <y>506</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>probe_fast_fr_3016</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>update_surface_scan_params</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>200</x>
+     <y>387</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>209</x>
+     <y>503</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>surface_scan_height_3053</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>update_surface_scan_params</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>175</x>
+     <y>456</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>172</x>
+     <y>501</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>surface_scan_x0_3054</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>update_surface_scan_params</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>451</x>
+     <y>445</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>460</x>
+     <y>502</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>probe_slow_fr_3015</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>update_surface_scan_params</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>496</x>
+     <y>382</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>493</x>
+     <y>514</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>surface_scan_x0_3051</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>update_surface_scan_params</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>187</x>
+     <y>174</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>300</x>
+     <y>518</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
